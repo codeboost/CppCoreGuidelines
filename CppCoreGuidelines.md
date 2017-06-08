@@ -6965,7 +6965,7 @@ This kind of "vector" isn't meant to be used as a base class at all.
 ##### Reason
 
 `protected` data is a source of complexity and errors.
-`protected` data complicated the statement of invariants.
+`protected` data complicates the statement of invariants.
 `protected` data inherently violates the guidance against putting data in base classes, which usually leads to having to deal virtual inheritance as well.
 
 ##### Example, bad
